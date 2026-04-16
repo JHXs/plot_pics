@@ -6,6 +6,7 @@ import numpy as np
 
 # 数据定义
 models = ['RNN', 'LSTM', 'GRU', 'TCN', 'patchtst', 'ST-PatchTST']
+# models = ['patchtst', 'ST-PatchTST']
 time_steps = ['+1h', '+4h', '+12h', '+24h']
 x = np.arange(len(time_steps))
 

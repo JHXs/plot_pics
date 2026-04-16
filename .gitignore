@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# custom files
+.spec-workflow
+plot_outputs/
+*.png
